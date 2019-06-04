@@ -1,0 +1,480 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	font-size: 16px;
+	height: 100%;
+}
+
+.banner{
+	height: auto;
+	width: 100%;	
+	position: fixed;
+	z-index: 597;
+	transition: all 0.5s ease-in-out;
+}
+
+.banner-header{
+	height: auto;
+	transition: all 0.8s ease-in-out;
+}
+.banner-header.active{
+	visibility: hidden;
+	transition: all 0.1s ease-in-out;
+}
+img.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+	transition: 0.1s ease-in-out; /* Makes banner header fade to 0 opacity on page scroll */
+}
+img.logo.active {
+	opacity: 0;
+}
+h1.homepage-title{
+	font-family: "Oswald", sans-serif;
+	font-size: 8vh;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.2em;
+	margin: 0.3em;
+	padding: 0;
+	transition: 0.5s ease-in-out; /* Makes banner header fade to 0 opacity on page scroll */
+}
+h1.homepage-title.active{
+	opacity: 0;
+}
+h1.title{
+	font-family: "Oswald", sans-serif;
+	font-size: 8vh;
+	color: #2e2e2e;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.2em;
+	margin: 0.3em;
+	padding: 0;
+	transition: 0.5s ease-in-out; /* Makes banner header fade to 0 opacity on page scroll */
+}
+h1.title.active{
+	opacity: 0;
+}
+h2.title{
+	font-family: "Cinzel", serif;
+	font-size: 3.5vh;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin: 1em;
+	padding: 0;
+}
+h3.title{
+	font-family: "Cinzel", serif;
+	font-size: 2vh;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin: 1em;
+	padding: 0;
+}
+.poem{
+	position: absolute;
+	bottom: 0;
+	background-color: #2e2e2e;
+	opacity: 0.8;
+	color: #ffffff;
+	margin: 0;
+	padding: 1em;
+	font-size: 1vh;
+}
+/* Navbar */
+.topnav {
+    /* background-color: #ffffff; */
+	border-top: 1px solid #eeeeee;
+    overflow: hidden;
+	z-index: 599;
+	transition: all 0.7s ease-in-out;
+	position: relative;
+}
+.topnav.active{
+	background-color: #ffffff;
+	padding: 0.4em;
+	box-shadow: 2px 2px 2px #cccccc;
+}
+.topnav.active a{
+	color: #2e2e2e
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	font-family: "Oswald", sans-serif;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ffffff;
+    color: #2e2e2e;
+	transition: 0.4s;
+	text-decoration: none;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Social media buttons class */
+.share-buttons{
+	color: #ffffff;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 999;
+}
+.share-buttons a{
+	color: #ffffff;
+	padding: 0.3em;
+	font-size: 1.5vw;
+}
+.share-buttons a:hover{
+	text-shadow: 1px 1px 1px #000000;
+	position: relative;
+	bottom: 1px;	
+}
+.share-buttons.active{
+	z-index: 999;
+}
+.share-buttons.active a{
+	color: #337BB7;
+}
+.participate-btn-wrapper{
+	text-align: center;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	bottom: 10em;
+}
+.participate-btn{
+	width: auto;
+	height: auto;
+	background-color: #337BB7;
+	border: 4px solid #ffffff;
+	z-index: 596;
+	overflow: hidden;
+}
+.participate-btn:hover{
+	background-color: #094C83;
+	transition: 0.5s;
+
+}
+a.participate{
+	font-family: "Oswald", sans-serif;
+	font-size: 2em;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0.5em;
+}
+#wrapper{
+	position: relative;
+	height: 100%;
+	/* margin: 14em 0;
+	padding: 0.5em 0; */
+}
+#intro{
+	background-image: url("../resources/images/homepage/intro-01-tint-more.jpg");
+    /* Full height */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+.splash-title{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 1em 0;
+	padding: 0.5em 0;
+	/* background-color: #2e2e2e;
+	opacity: 0.8; */
+}
+.intro-footer{
+	height: auto;
+	width: 100%;
+}
+.footer-logo{
+	margin: 0;
+	padding: 0;
+}
+.content-section{
+	height: auto;
+	padding: 5em;
+	border-bottom: 1px solid #cccccc;
+}
+.content-section-images{
+	height: auto;
+	padding: 0;
+	text-align: center;
+}
+.text-content{
+	margin: 0 20%;
+}
+.video-content{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.links-content{
+	text-align: center;
+}
+.horizon{
+	margin: 0 auto;
+	text-align: center;
+}
+.horizon a{
+	font-family: "Cinzel", serif;
+}
+img.homepage {
+	padding: 10%;
+}
+.img-holder{
+	margin:0 1em 4em 0;
+	padding:0;
+	height:12em;
+	width:auto;
+	float:left;
+	z-index:1;
+}
+.img-holder .caption{
+	width: 150px;
+	height: 3em;
+	margin: 0 auto;
+	text-align: center;
+	color: #2e2e2e;
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+}
+img.ppt {
+	padding: 2%;
+	border: 1px solid #eeeeee;
+}
+.gallery-thumbnail{
+	margin: 0;
+	padding: 0;
+}
+p.caption{
+	font-size: 1em;
+}
+a.mail {
+	word-wrap: break-word; max-width:300px;
+}
+.footer{
+	width: 100%;
+	height: 20em;
+	background-color: #2e2e2e;
+}
+/*------------------------
+GLOBAL CLASSES
+-------------------------*/
+h1, h2, h3, h4, h5, h6{
+	font-family: "Cinzel", serif;
+	text-align: center;
+	color: #2e2e2e;
+	padding: 2em 0;
+}
+p{
+	font-family: "Lora", serif;
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+a{
+	font-family: "Lora", serif;
+	line-height: 1.5em;
+	font-size: 1em;
+	color: #337BB7;
+	text-decoration: none;
+}
+
+ol, ul, li{
+	font-family: "Lora", serif;
+	line-height: 1.5em;
+	font-size: 1.05em;
+}
+/* Make iframes responsive */
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+/* Accordion menus */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #094C83;
+    color: #ffffff;
+    cursor: pointer;
+	margin: 2% 0;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	font-size: 1em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+/* Accordion menus */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion.active, .accordion:hover {
+    background-color: #063D6B;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+    content: "+"; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion.active:after {
+    content: "-" /* Unicode character for "minus" sign (-) */
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activate, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

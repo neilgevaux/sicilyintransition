@@ -1,0 +1,1516 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2540                
+POS_VISITOR 31175               
+POS_DAY 58022               
+POS_DOMAIN 3514                
+POS_LOGIN 3750                
+POS_ROBOT 3905                
+POS_WORMS 4779                
+POS_EMAILSENDER 4910                
+POS_EMAILRECEIVER 5053                
+POS_SESSION 58967               
+POS_SIDER 59170               
+POS_FILETYPES 5188                
+POS_OS 5428                
+POS_BROWSER 5635                
+POS_SCREENSIZE 6247                
+POS_UNKNOWNREFERER 6321                
+POS_UNKNOWNREFERERBROWSER 8126                
+POS_ORIGIN 9110                
+POS_SEREFERRALS 9258                
+POS_PAGEREFS 9428                
+POS_SEARCHWORDS 11084               
+POS_KEYWORDS 11333               
+POS_MISC 2204                
+POS_ERRORS 11489               
+POS_CLUSTER 3606                
+POS_SIDER_404 11644               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201002439 19114 4442206 30893466301
+FirstTime 0
+LastTime 20190131235338
+LastUpdate 20190201032444 19114 18407 706 0 0
+TotalVisits 2046                
+TotalUnique 555                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 727                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 101 191 28664736 49 78 2749713
+1 98 309 28499400 36 97 6291106
+2 103 267 25432567 27 96 6793116
+3 114 445 48030684 41 181 4337179
+4 140 694 72868816 36 228 2664786
+5 126 838 90241337 49 239 6209730
+6 126 682 94706038 65 239 13778430
+7 119 449 60247122 31 222 6351130
+8 139 1097 125939049 57 249 28487907
+9 120 770 94068460 46 204 4430015
+10 132 1277 141488536 43 201 17536256
+11 131 1100 135699337 356 504 7838137
+12 128 1080 117068305 65 353 29317425
+13 121 233 42385403 46 235 18417903
+14 109 286 54532585 39 176 34669598
+15 124 536 66459200 57 199 17116515
+16 124 697 85714283 59 258 33052124
+17 131 451 72765818 37 211 4533527
+18 113 375 34881689 42 180 8545608
+19 129 469 56345360 60 170 18502177
+20 106 277 50354016 82 214 24996770
+21 97 191 17730394 115 161 16072427
+22 113 195 15231489 130 155 8504016
+23 105 129 11304521 46 89 28860709
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2849 13038 1570659145
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+googlebot 266 129617986 20190131193538 0
+bot[+:,\.\;\/\\-] 236 119402639 20190131202350 0
+baiduspider 163 31876722 20190129054424 0
+archive\.org_bot 127 15122272 20190131212003 0
+gigabot 63 8210084 20190126120050 0
+java 45 2474235 20190131223825 0
+yandex 22 1209626 20190131183253 0
+robot 22 7109032 20190131220130 0
+no_user_agent 16 439864 20190125102448 0
+python 13 12834693 20190131111233 0
+powermarks 1 54983 20190125160634 0
+exabot 10 549830 20190131173102 0
+ia_archiver 1 54983 20190104050521 0
+mail\.ru 11 3891325 20190128120357 0
+titan 1 54554 20190106140956 0
+wordpress 2 0 20190124131605 0
+turnitinbot 1 54983 20190131194237 0
+msiecrawler 1 54983 20190115101736 0
+netcraft 1 54983 20190106113102 0
+crawl 10 549830 20190128211134 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 643 3107505 0 0
+png 1265 185598335 0 0
+pdf 16 49549083 0 0
+pptx 14 170448558 0 0
+html 2682 146749839 0 0
+jpg 7856 1007943249 0 0
+js 307 1726338 0 0
+svg 137 4536070 0 0
+gif 118 1000168 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 16
+winlong 2
+winxp 51
+win2000 24
+winvista 531
+win95 7
+win2003 5
+wince 1
+unix 157
+winnt 3164
+linuxubuntu 1
+win98 1
+linux 3161
+macosx 4363
+winme 2
+Unknown 162
+win2008 1406
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 41
+msie6.0 34
+firefox57.0 5
+firefox44.0 1
+chrome 6865
+firefox52.0 1
+firefox49.0 1
+msie3.02 1
+firefox63.0 83
+firefox31.0 72
+netscape4.76 2
+firefox6.0.2 5
+firefox64.0 1295
+netscape3.0 1
+firefox43.0 50
+msie7.0 7
+firefox59.0 36
+firefox40.1 63
+msie2.0 3
+firefox41.0 1
+msie9.0 7
+Unknown 51
+netscape4.61 1
+firefox48.0 8
+firefox42.0 432
+firefox52.52.09 1
+opera 19
+firefox55.0 2
+firefox3.0 6
+firefox3.6.2 1
+firefox58.0 16
+msie5.5 6
+firefox56.0 1
+firefox47.0 78
+firefox3.0.3 1
+netscape0.6 1
+firefox33.0 2
+mozilla 689
+netscape5.0 27
+firefox60.0 80
+firefox3.6.8 1
+safari 3082
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 25
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone6_1 20190116234800
+lua-resty-http/0.10_(Lua)_ngx_lua/10000 20190114192222
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone10_6 20190105183658
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20190131160141
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190126201106
+com.google.GoogleMobile/64.0.0_iPhone/12.1.2_hw/iPhone8_4 20190113125952
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20190112185106
+Openwave/_UCWEB7.0.2.37/28/999 20190106091544
+Mozilla/0.6_Beta_(Windows) 20190123221720
+Mozilla/5.0_Firefox/33.0 20190113051436
+Mozilla/5.0_zgrab/0.x 20190123194956
+com.google.GoogleMobile/65.0.0_iPhone/12.1_hw/iPhone9_3 20190104141621
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190109060505
+The_Knowledge_AI 20190131071715
+com.google.GoogleMobile/65.0.0_iPad/12.1.1_hw/iPad6_12 20190130161727
+rg-community-event 20190102124713
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20190131122035
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20190131165916
+com.google.GoogleMobile/63.0.0_iPhone/12.1_hw/iPhone10_2 20190124112710
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20190129124523
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone10_3 20190111201707
+Go-http-client/1.1 20190124024209
+Mozilla/4.0_(compatible;) 20190123050357
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20190125202721
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20190119144759
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+com.google.GoogleMobile/65.0.0_iPad/12.1.1_hw/iPad6_12 20190130161727
+rg-community-event 20190102124713
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone6_1 20190116234800
+lua-resty-http/0.10_(Lua)_ngx_lua/10000 20190114192222
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone10_6 20190105183658
+com.google.GoogleMobile/64.0.0_iPhone/12.1.2_hw/iPhone8_4 20190113125952
+Openwave/_UCWEB7.0.2.37/28/999 20190106091544
+com.google.GoogleMobile/63.0.0_iPhone/12.1_hw/iPhone10_2 20190124112710
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20190129124523
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone10_3 20190111201707
+com.google.GoogleMobile/65.0.0_iPhone/12.1_hw/iPhone9_3 20190104141621
+Go-http-client/1.1 20190124024209
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20190125202721
+The_Knowledge_AI 20190131071715
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2504 2815
+From1 18 18
+From2 93 173
+From3 82 83
+From4 152 9949
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 83 163
+baidu 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 52
+http://kozhniebolezni.com 4 4
+https://automobile-spec.com 3 3
+https://www.ecosia.org 3 3
+https://svensk-poesi.com 3 3
+https://rutor.group 3 3
+https://vezdevoz.com.ua 3 3
+http://gidonline.one 3 3
+http://fsalas.com 3 3
+https://francaise-poesie.com 2 2
+https://jav-fetish.site 2 2
+https://drev.biz 1 1
+https://mrbojikobi4.biz 2 2
+https://deutsche-poesie.com 1 1
+https://okoshkah.com 2 2
+https://www.souvenirua.com 2 2
+http://bin-brokers.com 2 2
+https://www.facebook.com 2 2
+https://aitiman.ae 2 2
+https://videotop.biz 1 1
+https://lista.mercadolivre.com.br/dji-spark-combo 1 1
+https://porndl.org 1 1
+http://hit-kino.ru 2 2
+https://javlibrary.cc 1 1
+https://skazki-rus.ru 1 1
+https://pornhive.org 2 2
+http://burger-imperia.com 1 1
+https://psn-card.ru 1 1
+https://supermama.top 2 2
+https://medbrowse.info 1 1
+https://inmoll.com 2 2
+https://www.123movies.love 1 1
+https://tamada69.com 1 1
+https://doggyhealthy.com 1 1
+https://ege-essay.ru 1 1
+https://moyparnik.com 1 1
+https://mydirtystuff.com 1 1
+https://your-tales.ru 1 1
+https://pornhive.org 1 1
+https://pyr.am/id-dial/sicilyintransition.org 2 2
+http://www.neigle.com 1 1
+https://magnetic-bracelets.ru 1 1
+https://www.bing.com 0 1
+http://jjbabskoe.ru 1 1
+http://natali-forex.com 1 1
+https://www.researchgate.net 1 1
+https://draniki.org 1 1
+https://s-forum.biz 2 2
+https://www.dailyseo.xyz/beginner-s-guide-to-blogging-and-making-money-online/62557918/ 1 1
+https://deutsche-poesie.com 1 1
+https://sel-hoz.com 1 1
+https://javcoast.com 1 1
+https://rus-lit.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+actionpsp 1
+vastmyf 1
+lay16t 1
+hugeken 1
+alongyrz 1
+fearb1q 1
+troubleq96 1
+memoryss2 1
+yard5pp 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 9
+actionpsp 1
+vastmyf 1
+lay16t 1
+hugeken 1
+alongyrz 1
+fearb1q 1
+memoryss2 1
+troubleq96 1
+yard5pp 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 9 2141
+206 13 13113819
+405 1 243
+406 50 13068
+407 37 15355
+404 3817 3294071
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 327
+/blog/wp-includes/wlwmanifest.xml 5 -
+//bulao.php 1 http://www.sicilyintransition.org//bulao.php
+/wordpress/ 9 -
+//plus/niubi.php 1 http://www.sicilyintransition.org//plus/niubi.php
+/ftpsync.settings 10 -
+//plus/ver.asp 1 http://www.sicilyintransition.org//plus/ver.asp
+/site/wp-includes/wlwmanifest.xml 5 -
+//wp-content/uploads/levoslideshow/42_uploadfolder/big/Raiz0__uvhox.php 1 -
+//plus/mybak.php 1 http://www.sicilyintransition.org//plus/mybak.php
+//install/m7lrv.php 1 http://www.sicilyintransition.org//install/m7lrv.php
+/wp1/wp-login.php 2 -
+//config/AspCms_Config.asp 3 http://www.sicilyintransition.org//config/AspCms_Config.asp
+/googlec13b0d44b291059f.html 4 -
+//admin/error.asp 1 http://www.sicilyintransition.org//admin/error.asp
+//modules/mod_simplefileuploadv1.3/elements/u3p.php 1 -
+//admin/images/cal_date_over.gif 2 -
+/xmlrpc.php 20 -
+//x.aspx 3 http://www.sicilyintransition.org//x.aspx
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/fancybox/source/helpers/jquery.fancybox-thumbs.css 1 http://www.sicilyintransition.org/index.html
+//Web_fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+//include/code/mp.php 1 http://www.sicilyintransition.org//include/code/mp.php
+//webconfig.txt.php 1 http://www.sicilyintransition.org//webconfig.txt.php
+/wp-content/plugins/wp-formgenerator/changelog.txt 1 http://sicilyintransition.org/wp-content/plugins/wp-formgenerator/changelog.txt
+//error.php 1 -
+//admin/Admin_Ta.asp 1 http://www.sicilyintransition.org//admin/Admin_Ta.asp
+//admin/sdfg.asp 1 http://www.sicilyintransition.org//admin/sdfg.asp
+//data/s.asp 1 http://www.sicilyintransition.org//data/s.asp
+//weki.asp 1 http://www.sicilyintransition.org//weki.asp
+//wp-login.php 2 -
+//search.php 1 -
+//jiansheng.aspx 3 http://www.sicilyintransition.org//jiansheng.aspx
+/.git/info/refs 2 -
+/apple-touch-icon-152x152-precomposed.png 36 -
+//SqlOut.asp 1 http://www.sicilyintransition.org//SqlOut.asp
+/mailto:%27+firstRome1+++%27%40%27+++last+ 4 http://sicilyintransition.org/mailto:%27+firstRome1+++%27%40%27+++last+
+/wp-login.php 88 -
+//angie.asp 1 http://www.sicilyintransition.org//angie.asp
+//admin.php/module/action/param1/$%7B@eval($_POST%5Bc%5D)%7D 3 http://www.sicilyintransition.org//admin.php/module/action/param1/${@eval($_POST[c])}
+//Somnus/Somnus.asp 1 http://www.sicilyintransition.org//Somnus/Somnus.asp
+//testxx.aspx 3 http://www.sicilyintransition.org//testxx.aspx
+//plus/90sec.php 1 http://www.sicilyintransition.org//plus/90sec.php
+//images/Sql.asp 1 http://www.sicilyintransition.org//images/Sql.asp
+//shell.php 2 http://www.sicilyintransition.org//shell.php
+//wp-content/uploads/assignments/Raiz0_154879158.php. 1 -
+/resources/images/content-pages/gallery/IMG_3596.jpg 2 http://sicilyintransition.org
+//admin/images/Sql.asp 1 http://www.sicilyintransition.org//admin/images/Sql.asp
+//weki.php 1 http://www.sicilyintransition.org//weki.php
+//components/Raiz0WorM_154879158.php 1 -
+//yp/product.php 3 http://www.sicilyintransition.org//yp/product.php
+/ads.txt 3 -
+//1234.php 1 http://www.sicilyintransition.org//1234.php
+//Web_fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/test1/wp-login.php 2 -
+/js/bootstrap.min.js 1 http://www.sicilyintransition.org/index.html
+//data/cache/a.php 1 http://www.sicilyintransition.org//data/cache/a.php
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+//data/cache/asd.php 3 http://www.sicilyintransition.org//data/cache/asd.php
+//wp-content/uploads/2018/01/Raiz0__uvhox.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 5 -
+/mailto:%27+firstRome2+++%27%40%27+++last+ 2 http://sicilyintransition.org/mailto:%27+firstRome2+++%27%40%27+++last+
+//pic/fckimg/image/1.asp 3 http://www.sicilyintransition.org//pic/fckimg/image/1.asp
+//sites/all/modules/avatar_uploader/lib/demo/view.php 1 -
+//install/md5.php 1 http://www.sicilyintransition.org//install/md5.php
+//wp-admin/setup-config.php 2 -
+//FCKeditor3/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+//data/cache/t.php 1 http://www.sicilyintransition.org//data/cache/t.php
+/resources/images/content-pages/gallery/IMG_3599.jpg 4 http://www.sicilyintransition.org/
+//wp-content/plugins/showbiz/temp/update_extract/Raiz0__uvhox.php 1 -
+//data/img/css/xianf.ASP 3 http://www.sicilyintransition.org//data/img/css/xianf.ASP
+//u.php 1 -
+//data/cache/gh.php 1 http://www.sicilyintransition.org//data/cache/gh.php
+/resources/images/content-pages/gallery/IMG_3595.jpg 2 http://sicilyintransition.org
+//include/helperss/filter.helpear.php 1 http://www.sicilyintransition.org//include/helperss/filter.helpear.php
+/robots.txt 415 -
+//houzi.aspx 3 http://www.sicilyintransition.org//houzi.aspx
+/css/col.css 1 http://www.sicilyintransition.org/index.html
+//plus/e7xue.php 1 http://www.sicilyintransition.org//plus/e7xue.php
+/temp/wp-admin/ 1 -
+//include/ckeditor/plugins/pagebreak/images/inCahe.php 1 http://www.sicilyintransition.org//include/ckeditor/plugins/pagebreak/images/inCahe.php
+/wordpress1/wp-login.php 2 -
+//css.asp 2 http://www.sicilyintransition.org//css.asp
+//modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/.ftpconfig 10 -
+//Rose20190130000724.txt 1 -
+//media/raiz0.php 1 -
+/wordpress/wp-login.php 2 -
+//Web_fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/css/bootstrap.css 1 http://www.sicilyintransition.org/index.html
+//FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//90.asp 5 http://www.sicilyintransition.org//90.asp
+/wp-admin/ 15 -
+//wp-content/plugins/dzs-videogallery/upload.php 1 -
+/.git/config 2 -
+//plus/moon.php 3 http://www.sicilyintransition.org//plus/moon.php
+/mailto:%27+firstPi+++%27%40%27+++last+ 4 http://sicilyintransition.org/mailto:%27+firstPi+++%27%40%27+++last+
+//data/data.asp 1 http://www.sicilyintransition.org//data/data.asp
+///weki.asp 1 http://www.sicilyintransition.org///weki.asp
+/wordpress2/wp-login.php 2 -
+//dang.php 1 http://www.sicilyintransition.org//dang.php
+//chece.php 1 http://www.sicilyintransition.org//chece.php
+//kdatebase/index_.asp 1 http://www.sicilyintransition.org//kdatebase/index_.asp
+//t.php 1 http://www.sicilyintransition.org//t.php
+//facaizlu.asp 1 http://www.sicilyintransition.org//facaizlu.asp
+//modules/fieldvmegamenu/uploads/Attacker.php 1 -
+//user/register 1 -
+//bsm.asp 1 http://www.sicilyintransition.org//bsm.asp
+//FCKeditor3/editor/filemanager/connectors/php/connector.php 1 -
+//coon.php 1 http://www.sicilyintransition.org//coon.php
+//plus/mytag_j.php 3 http://www.sicilyintransition.org//plus/mytag_j.php
+//index.php/Index/index/name/$%7B@eval($_POST%5Bc%5D)%7D 3 http://www.sicilyintransition.org//index.php/Index/index/name/${@eval($_POST[c])}
+/test3/wp-login.php 2 -
+//x.php 1 http://www.sicilyintransition.org//x.php
+//data/cache/qq.php 1 http://www.sicilyintransition.org//data/cache/qq.php
+/admin/images/cal_date_over.gif 2 -
+/.vscode/sftp.json 10 -
+//modules/Attacker.php 1 -
+//index.asp 1 http://www.sicilyintransition.org//index.asp
+//install/modurnlecscache.php 1 http://www.sicilyintransition.org//install/modurnlecscache.php
+/test/wp-admin/ 3 -
+//Sjaibiusa.Dsa.asp 1 http://www.sicilyintransition.org//Sjaibiusa.Dsa.asp
+//modules/fieldvmegamenu/ajax/upload.php 1 -
+//md5.asp 1 http://www.sicilyintransition.org//md5.asp
+//plus/x.php 1 http://www.sicilyintransition.org//plus/x.php
+//data/conn/config.php 1 http://www.sicilyintransition.org//data/conn/config.php
+/apple-touch-icon.png 1259 -
+///lib/smarty/plugins/modifier.config.php 1 -
+/images/contentPages/gallery/slideshow/slideshow-07.jpg 1 -
+//plus/bakup.hp 3 http://www.sicilyintransition.org//plus/bakup.hp
+//images/swfupload/images/uploadye.php 1 http://www.sicilyintransition.org//images/swfupload/images/uploadye.php
+/templates/system/css/system.css 2 -
+/test/wp-login.php 2 -
+//data/cache/flye.php 2 http://www.sicilyintransition.org//data/cache/flye.php
+//FCKeditor3/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/images/contentPages/gallery/slideshow/slideshow-06.jpg 2 -
+/blog/ 9 -
+//wp-admin/admin.php 1 -
+//FCKeditor3/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/wp/ 9 -
+//indax.asp 1 http://www.sicilyintransition.org//indax.asp
+/cms/wp-includes/wlwmanifest.xml 5 -
+//FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/resources/images/content-pages/gallery/IMG_3592.jpg 2 http://sicilyintransition.org
+/fancybox/source/jquery.fancybox.pack.js 2 -
+/fancybox/source/helpers/jquery.fancybox-buttons.js 3 -
+/apple-touch-icon-precomposed.png 1259 -
+//images/jdownloads/screenshots/raiz0worm.php3.g 1 -
+//images/css/Thumb.asp 1 http://www.sicilyintransition.org//images/css/Thumb.asp
+//x.asp 1 http://www.sicilyintransition.org//x.asp
+//FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//plus/ad_js.php 11 http://www.sicilyintransition.org//plus/ad_js.php
+//plus/download.php 1 http://hotels.ctrip.com/
+//book/story_dod_hjkdsafon.php 1 http://www.sicilyintransition.org//book/story_dod_hjkdsafon.php
+//FCKeditor3/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/fancybox/source/jquery.fancybox.css 3 -
+//tcb.php 1 http://www.sicilyintransition.org//tcb.php
+//wp-content/plugins/dzs-videogallery/upload/xo.php 1 -
+//plus/11m.php 1 http://www.sicilyintransition.org//plus/11m.php
+//FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+//Web_fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__uvhox.php 1 -
+//diandian.aspx 3 http://www.sicilyintransition.org//diandian.aspx
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 http://sicilyintransition.org/wp-content/plugins/formcraft/file-upload/server/php/upload.php
+//wiki.php 1 http://www.sicilyintransition.org//wiki.php
+//plus/mycak.php 1 http://www.sicilyintransition.org//plus/mycak.php
+//wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/apple-app-site-association 1 -
+/css/scrolling-nav.css 3 -
+/ 1 -
+//dcman/BaseManage/TemplatePath_Manage.aspx 1 -
+/sftp-config.json 10 -
+/resources/images/content-pages/gallery/IMG_3593.jpg 2 http://sicilyintransition.org
+//1.php 4 http://www.sicilyintransition.org//1.php
+/.well-known/apple-app-site-association 1 -
+//plus/bakup.php 1 http://www.sicilyintransition.org//plus/bakup.php
+//admin/login.php 4 -
+//admin 2 -
+//utility/convert/data/config.inc.php 2 http://www.sicilyintransition.org//utility/convert/data/config.inc.php
+//data/%235Dp8Gh.asp 1 http://www.sicilyintransition.org//data/#5Dp8Gh.asp
+/resources/images/content-pages/gallery/IMG_3597.jpg 3 http://sicilyintransition.org
+//Web_fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//stt.aspx 3 http://www.sicilyintransition.org//stt.aspx
+/joomla/ 2 -
+//index.php 8 http://www.sicilyintransition.org//index.php
+/new/wp-admin/ 2 -
+//inc/config.asp 1 http://www.sicilyintransition.org//inc/config.asp
+//data/%23AspCms252.asp 1 http://www.sicilyintransition.org//data/#AspCms252.asp
+//data/cache/c32as.php 1 http://www.sicilyintransition.org//data/cache/c32as.php
+/user/register 2 -
+//installation/index.php 2 -
+//user/login 2 -
+//yijuhua.php 1 http://www.sicilyintransition.org//yijuhua.php
+/apple-touch-icon-152x152.png 36 -
+/resources/images/content-pages/gallery/IMG_3590.jpg 6 http://sicilyintransition.org
+//wp-content/themes/clockstone/theme/functions/u3p.php 1 -
+/wp/wp-admin/ 5 -
+/mailto:%27+first+++%27%40%27+++last+ 2 http://sicilyintransition.org/mailto:%27+first+++%27%40%27+++last+
+//T_book.aspx 3 http://www.sicilyintransition.org//T_book.aspx
+/mailto:%27+firstBioarch2+++%27%40%27+++last+ 2 http://sicilyintransition.org/mailto:%27+firstBioarch2+++%27%40%27+++last+
+//e/admin/cao.php 1 http://www.sicilyintransition.org//e/admin/cao.php
+//Fightings.asp 1 http://www.sicilyintransition.org//Fightings.asp
+/js/jquery.easing.min.js 1 http://www.sicilyintransition.org/index.html
+/test2/wp-login.php 2 -
+/mailto:%27+firstLecce+++%27%40%27+++last+ 2 http://sicilyintransition.org/mailto:%27+firstLecce+++%27%40%27+++last+
+/fancybox/source/helpers/jquery.fancybox-buttons.css 1 http://www.sicilyintransition.org/index.html
+//fuck.php 2 http://www.sicilyintransition.org//fuck.php
+//modules/homepageadvertise2/slides/raiz0.php 1 -
+//wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 1 http://sicilyintransition.org/wp-content/plugins/dzs-zoomsounds/admin/upload.php
+/wp-includes/wlwmanifest.xml 5 -
+//plus/spider.php 1 http://www.sicilyintransition.org//plus/spider.php
+/useronline/ 1 http://buspar10.com
+//robot.php 1 http://www.sicilyintransition.org//robot.php
+//base/admin/cache.asp 1 http://www.sicilyintransition.org//base/admin/cache.asp
+//data/data/index.php 1 http://www.sicilyintransition.org//data/data/index.php
+//php168/1ist.php 1 http://www.sicilyintransition.org//php168/1ist.php
+//assets/ckeditor/kcfinder/upload.php 1 -
+//upLoad/links/month_1803/fuckjq.asp 1 http://www.sicilyintransition.org//upLoad/links/month_1803/fuckjq.asp
+//wp-includes/css/modules.php 1 http://www.sicilyintransition.org//wp-includes/css/modules.php
+//bbs/utility/convert/data/config.inc.php 1 http://www.sicilyintransition.org//bbs/utility/convert/data/config.inc.php
+//Templates/test.asp 1 http://www.sicilyintransition.org//Templates/test.asp
+/js/scrolling-nav.js 2 -
+/deployment-config.json 10 -
+//datas.php 1 http://www.sicilyintransition.org//datas.php
+//plus/result.php 4 http://www.sicilyintransition.org//plus/result.php
+//page.php 1 http://www.sicilyintransition.org//page.php
+//admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/wordpress/wp-admin/ 5 -
+//plus/laobiao.php 1 http://www.sicilyintransition.org//plus/laobiao.php
+//FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/blog2/wp-login.php 2 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+//Web_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+//auto.aspx 3 http://www.sicilyintransition.org//auto.aspx
+/.vscode/ftp-sync.json 10 -
+/wordpress/wp-config.php~ 2 -
+/wp3/wp-login.php 2 -
+//1.aspx 3 http://www.sicilyintransition.org//1.aspx
+/.vscode/settings.json 10 -
+//404.php 1 http://www.sicilyintransition.org//404.php
+/sitemap.xml 6 -
+//login.php 3 http://www.sicilyintransition.org//login.php
+//wp-admin/install.php 2 -
+//wp-admin/admin-ajax.php 3 -
+//NewsType.asp 1 -
+//plus/long.php 1 http://www.sicilyintransition.org//plus/long.php
+//dufu.php 1 http://www.sicilyintransition.org//dufu.php
+//plus/read.php 2 http://www.sicilyintransition.org//plus/read.php
+/admin/login.php 2 -
+//wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/single-upload.php 1 -
+//plus/moon 3 http://www.sicilyintransition.org//plus/moon
+//Templates/red.asp 1 http://www.sicilyintransition.org//Templates/red.asp
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 http://sicilyintransition.org/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css
+//include/data/fonts/uddatasql.php 1 http://www.sicilyintransition.org//include/data/fonts/uddatasql.php
+//.aspx 6 http://www.sicilyintransition.org//.aspx
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+//manage/Images/Sql.asp 1 http://www.sicilyintransition.org//manage/Images/Sql.asp
+/site/wp-admin/ 2 -
+//sitemap/templates/met/SqlIn.asp 1 http://www.sicilyintransition.org//sitemap/templates/met/SqlIn.asp
+/phpmyadmin/ 1 -
+/resources/images/content-pages/gallery/IMG_3591.jpg 2 http://www.sicilyintransition.org/
+/wordpress3/wp-login.php 2 -
+//administrator 2 -
+//assets/ckeditor/kcfinder/upload/files/Attacker.php 1 -
+//wp-content/themes/clockstone/theme/functions/uploadbg.php 1 -
+//wp-content/plugins/revslider/temp/update_extract/Raiz0__uvhox.php 1 -
+//admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+//data/admin/sky.php 1 http://www.sicilyintransition.org//data/admin/sky.php
+/mailto:%27+firstWebsite+++%27%40%27+++last+ 2 http://sicilyintransition.org/mailto:%27+firstWebsite+++%27%40%27+++last+
+//admin_login.php 1 http://www.sicilyintransition.org//admin_login.php
+//plus/xss.php 1 http://www.sicilyintransition.org//plus/xss.php
+//data/%23data.asp 2 http://www.sicilyintransition.org//data/%23data.asp
+/blog/wp-admin/ 5 -
+/blog/wp-login.php 3 -
+//FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+//rxr.php 1 -
+/wp-content/plugins/wp-easy-gallery-pro/admin/php.php 2 http://sicilyintransition.org/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+/fancybox/source/helpers/jquery.fancybox-thumbs.js 2 -
+//xxoo 3 http://www.sicilyintransition.org//xxoo
+//11.aspx 3 http://www.sicilyintransition.org//11.aspx
+/wp2/wp-login.php 2 -
+/fancybox/source/helpers/jquery.fancybox-media.js 1 http://www.sicilyintransition.org/index.html
+//utility/convert/include/rom2823.php 1 http://www.sicilyintransition.org//utility/convert/include/rom2823.php
+//admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/old/wp-admin/ 4 -
+/.remote-sync.json 10 -
+//dede/login.php 2 -
+/images/global/ERCLogoUpdated.png 3 -
+//da.php 1 http://www.sicilyintransition.org//da.php
+//wp-content/themes/Directory/images/tmp/Raiz0__uvhox.php 1 -
+//wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/vuln.php 1 -
+/wp/wp-login.php 3 -
+//plus/helen.php 1 http://www.sicilyintransition.org//plus/helen.php
+//index.php/Home/AppUpload/commentUpload 1 -
+/blog/robots.txt 9 -
+//polk.aspx 3 http://www.sicilyintransition.org//polk.aspx
+//c32as.php 1 http://www.sicilyintransition.org//c32as.php
+//images/cache.asp 1 http://www.sicilyintransition.org//images/cache.asp
+//huake.aspx 3 http://www.sicilyintransition.org//huake.aspx
+/mailto:%27+firstBioarch1+++%27%40%27+++last+ 2 http://sicilyintransition.org/mailto:%27+firstBioarch1+++%27%40%27+++last+
+/wp/wp-includes/wlwmanifest.xml 5 -
+//modules/namemodule/uploadimage.php 1 -
+/resources/images/content-pages/gallery/IMG_3594.jpg 3 -
+//uploads/da.php 1 http://www.sicilyintransition.org//uploads/da.php
+//test.php 1 http://www.sicilyintransition.org//test.php
+//plus/mytag_js.php 24 http://www.sicilyintransition.org//plus/mytag_js.php
+/user/register/ 6 -
+/blog1/wp-login.php 2 -
+//1.asp 2 http://www.sicilyintransition.org//1.asp
+//wuwu11.php 1 http://www.sicilyintransition.org//wuwu11.php
+//FCKeditor3/editor/filemanager/connectors/asp/connector.asp 1 -
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/gallery.html 4 -
+//wuji.aspx 3 http://www.sicilyintransition.org//wuji.aspx
+//admin/ 3 http://www.sicilyintransition.org//admin/
+//img/wen.php 1 http://www.sicilyintransition.org//img/wen.php
+//sqzr.asp 1 http://www.sicilyintransition.org//sqzr.asp
+/cms/wp-admin/ 1 -
+/wp-admin/setup-config.php 1 -
+//wiki.asp 1 http://www.sicilyintransition.org//wiki.asp
+//templates/system/css/system.css 2 -
+/index.php 3 -
+//blog/ 2 http://sicilyintransition.org/
+/favicon.png 1 -
+/blog3/wp-login.php 2 -
+//admin/index.asp 1 http://www.sicilyintransition.org//admin/index.asp
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 727
+31.49.97.129 91 91 5003453 20190131162327
+86.169.177.189 75 75 4123725 20190119180255
+52.165.166.139 72 72 3958776 20190131072225
+52.165.148.51 69 69 3793827 20190131210835
+18.216.12.224 30 30 1649490 20190129134630
+18.222.208.48 27 27 1484541 20190130221615
+3.17.67.255 27 27 1484541 20190131155337
+52.14.145.245 25 25 1374575 20190128232304
+18.223.171.194 25 25 1374575 20190130091608
+18.191.16.77 25 25 1374575 20190128081949
+178.128.225.195 1 1 0 20190129033446
+42.236.10.106 0 26 2957750 
+3.16.79.196 15 15 824745 20190126231918
+81.227.58.95 2 82 9433886 20190130151411
+90.208.36.26 2 63 6408634 20190120061927
+74.79.193.254 0 1 50107 
+202.46.52.150 1 1 54983 20190113212135
+83.41.166.205 2 82 9433886 20190117033808
+138.246.253.5 5 5 0 20190131060212
+80.106.232.237 1 1 54983 20190110131911
+202.46.50.188 1 1 54983 20190114211304
+83.53.11.168 1 1 0 20190117073048
+106.120.173.107 0 1 1344 
+202.46.50.187 1 1 54983 20190123170811
+161.111.57.129 2 82 9433886 20190102042042
+3.17.37.54 18 18 989694 20190131042403
+202.46.49.202 0 1 1344 
+111.206.36.133 0 1 2846 
+212.189.140.209 2 82 9433886 20190116103853
+54.166.192.102 0 1 52567 
+80.42.69.228 2 82 9433886 20190102182955
+90.147.182.241 2 85 10642030 20190115025929
+111.206.36.13 0 1 8613 
+203.99.175.106 1 1 54983 20190125044438
+95.242.17.180 1 1 54983 20190126082009
+3.16.54.147 14 14 769762 20190120160408
+202.46.53.59 1 1 54983 20190113170413
+202.46.58.160 1 1 54983 20190128223251
+13.58.141.246 13 13 714779 20190126092017
+3.16.149.74 15 15 824745 20190129071809
+18.188.31.130 11 11 604813 20190129102222
+18.188.83.193 14 14 769762 20190130191613
+145.107.164.114 2 82 9433886 20190104092202
+101.50.101.60 1 1 54983 20190124194042
+18.220.176.8 7 7 384881 20190129044657
+3.16.57.165 15 15 824745 20190129112022
+202.46.52.109 1 1 54983 20190116174436
+95.238.134.164 0 3 783675 
+202.46.53.197 1 1 54983 20190130090459
+184.175.34.239 1 1 54983 20190116004612
+86.173.133.58 12 12 659796 20190102085804
+158.69.252.227 1 1 54983 20190125121024
+40.77.192.20 1 1 12174897 20190116002019
+89.39.107.196 1 1 54983 20190108161915
+202.46.54.106 1 1 54983 20190106202525
+188.242.174.116 2 2 109966 20190106170802
+139.180.227.52 3 17 11488256 20190108191157
+35.167.60.193 0 1 141535 
+52.14.172.201 7 7 384881 20190131035437
+171.67.70.44 1 1 54983 20190123194956
+40.77.195.240 0 1 9372 
+68.175.97.190 0 1 254529 
+31.13.115.4 1 15 2103771 20190107045607
+107.77.85.130 0 1 58476 
+36.110.199.23 0 1 6489 
+66.220.149.15 0 1 52567 
+171.13.14.43 0 3 569008 
+50.204.33.170 0 1 50107 
+52.15.80.96 16 16 879728 20190131175332
+18.224.184.7 8 8 439864 20190130121637
+64.233.172.176 1 28 3983072 20190110121306
+212.99.44.68 1 1 54983 20190111205107
+151.19.39.213 0 1 384312 
+18.225.9.116 15 15 824745 20190130164658
+18.222.130.166 13 13 714779 20190126065141
+129.242.140.36 1 79 9179421 20190130100155
+18.217.75.8 11 11 604813 20190131222337
+18.188.211.54 5 5 274915 20190128135310
+206.206.102.216 1 1 54983 20190120191935
+66.249.92.7 1 1 53 20190101041509
+103.58.64.153 1 1 54983 20190118032022
+5.189.202.248 1 1 54983 20190123215112
+93.151.184.203 0 1 259491 
+82.117.95.193 1 1 54983 20190124000821
+40.77.252.45 1 1 33110 20190109135646
+157.138.189.101 1 1 54983 20190107043519
+31.13.115.16 0 13 1369356 
+18.221.14.40 11 11 604813 20190128105336
+18.188.240.21 13 13 714779 20190131142335
+59.101.73.44 2 87 12280095 20190110182359
+18.188.69.138 2 2 109966 20190125052248
+18.221.138.103 15 15 824745 20190131182503
+66.249.81.140 0 24 3548491 
+36.110.199.158 0 1 1850 
+209.19.180.126 2 71 8867802 20190131043431
+37.142.2.163 1 1 54983 20190123132745
+18.222.106.157 6 6 329898 20190129021547
+109.150.177.43 1 1 54983 20190104110729
+178.114.17.168 2 81 9431040 20190116043534
+77.99.189.56 1 1 54983 20190104045037
+130.71.191.173 2 82 9433886 20190102115833
+3.16.25.235 19 19 1044677 20190131215414
+46.119.121.91 11 11 604813 20190130134131
+52.9.240.36 0 1 142813 
+131.111.5.152 1 35 2784845 20190131063145
+52.14.138.220 15 15 824745 20190131075514
+82.14.208.66 1 81 9378903 20190121082752
+202.46.50.11 1 1 54983 20190111132417
+115.239.212.136 1 1 54983 20190129140943
+13.59.244.237 4 4 219932 20190117123559
+98.238.243.173 2 81 9391828 20190129035625
+168.150.50.216 0 1 54554 
+91.242.162.55 1 1 12324610 20190103161031
+31.28.163.44 1 1 54983 20190122174314
+202.46.51.175 0 1 2846 
+139.99.5.223 1 1 54983 20190110181240
+104.129.198.115 0 1 53437 
+92.53.38.181 1 1 54983 20190130233122
+85.202.163.127 1 1 54983 20190120120940
+18.191.37.80 17 17 934711 20190128234939
+94.19.150.216 1 1 54983 20190116152834
+172.58.3.61 2 82 9433886 20190109214919
+54.144.11.233 4 4 219932 20190105153318
+86.129.62.45 17 17 934711 20190105123012
+84.17.194.196 0 1 111311 
+175.101.88.232 1 1 54983 20190121103829
+159.203.196.79 1 1 54983 20190129092847
+31.13.127.11 0 2 108839 
+40.77.192.186 0 1 2846 
+18.222.105.94 24 24 1319592 20190129212410
+18.222.222.174 15 15 824745 20190130161606
+77.103.16.236 0 1 100426 
+40.77.188.126 0 1 2846 
+95.238.111.250 1 3 64940 20190121084323
+151.25.130.236 0 2 148228 
+91.252.5.179 0 1 100426 
+66.249.89.206 1 1 53 20190131120703
+59.101.146.166 2 82 9433886 20190111011739
+98.29.98.90 0 1 119989 
+223.104.189.175 1 19 1847272 20190110121708
+174.104.146.149 0 1 119989 
+18.219.100.132 13 13 714779 20190126142023
+79.79.206.40 2 3 199404 20190131124819
+51.254.28.132 3 3 164949 20190113081658
+173.252.87.6 1 28 3543866 20190114053120
+1.222.238.211 1 1 54983 20190108042536
+40.77.253.250 0 1 1850 
+192.41.125.255 2 79 9383224 20190114064936
+206.71.62.76 5 5 2645308 20190121233124
+187.190.116.15 2 2 109966 20190117154758
+18.217.237.116 17 17 934711 20190130154359
+176.36.21.189 1 1 54983 20190118222913
+137.226.113.27 4 4 219932 20190131165916
+213.205.194.120 0 1 228424 
+3.16.128.13 24 24 1319592 20190131052355
+62.63.44.172 1 1 54983 20190108095837
+109.246.123.207 2 82 9433886 20190107115832
+37.115.189.46 5 5 274915 20190119022021
+18.222.109.213 11 11 604813 20190130014656
+111.206.36.141 0 1 1850 
+46.119.122.127 19 19 1044677 20190130151234
+18.222.194.146 14 14 769762 20190126134933
+206.71.62.77 4 4 219932 20190118081858
+82.28.103.177 1 1 54983 20190102125807
+66.249.89.8 1 1 53 20190131122035
+35.237.185.109 1 1 54983 20190120225547
+46.11.138.224 0 1 59864 
+111.206.36.143 0 1 1850 
+109.129.238.90 1 3 64940 20190114035933
+202.46.53.54 1 1 54983 20190107144403
+24.254.82.187 2 2 1174545 20190125013320
+31.13.115.15 1 16 1642039 20190107045609
+202.46.53.65 1 1 54983 20190130223153
+80.181.97.128 2 81 9333460 20190116164106
+31.13.127.6 0 1 187018 
+3.16.164.152 9 9 494847 20190131072358
+175.143.17.131 1 1 54983 20190109232655
+13.57.233.99 9 9 494847 20190130151801
+104.36.17.171 1 1 54983 20190130151640
+221.156.213.23 1 1 54983 20190110075753
+82.132.245.242 0 1 111311 
+106.120.173.104 0 1 8613 
+3.16.218.246 1 1 54983 20190131065111
+144.32.94.111 2 81 9342844 20190128061850
+34.210.140.66 0 1 133048 
+91.134.17.240 1 1 54983 20190123063748
+111.206.36.135 1 1 54983 20190107093852
+93.144.45.210 2 2 109966 20190111144740
+18.219.233.161 7 7 384881 20190124202150
+40.77.190.31 0 4 18296 
+77.136.14.43 2 82 9433886 20190110015049
+202.46.52.164 1 1 54983 20190120222824
+13.59.157.70 15 15 824745 20190131165515
+195.251.16.109 0 1 45493 
+157.138.189.54 4 84 9543852 20190118063435
+94.69.228.31 0 2 230000 
+3.16.48.71 17 17 934711 20190128112310
+18.217.202.71 4 4 219932 20190115123457
+216.145.11.94 1 1 54983 20190117223447
+2.236.84.169 0 3 595760 
+91.242.162.51 1 1 4776573 20190119144759
+46.151.144.174 1 1 54983 20190113132317
+3.17.110.73 18 18 989694 20190130101554
+144.76.162.206 1 1 12174897 20190113201046
+144.32.220.176 2 76 9403372 20190115091233
+171.13.14.45 0 2 193507 
+180.190.55.136 0 1 214636 
+31.28.161.30 1 1 54983 20190120040705
+112.217.203.130 0 1 308285 
+173.205.33.28 1 1 54983 20190127044926
+173.252.95.21 0 1 52567 
+35.167.113.127 0 2 167021 
+188.217.2.115 1 1 553087 20190108082224
+31.13.115.6 0 13 1555941 
+202.46.49.67 1 1 54983 20190116021245
+35.231.95.104 1 1 54983 20190104000012
+202.46.51.111 1 1 54983 20190116230652
+40.77.192.11 0 1 8613 
+86.10.43.72 1 81 9378903 20190129041950
+180.163.220.68 0 2 9957 
+171.13.14.42 0 3 74678 
+31.13.127.16 0 1 40705 
+151.53.204.185 1 1 54983 20190128093641
+18.216.87.106 6 6 329898 20190127055032
+116.193.136.3 0 1 975362 
+203.133.170.16 1 9 96719 20190124234739
+14.215.176.144 0 1 8613 
+3.17.140.127 17 17 934711 20190130204526
+18.224.2.67 9 9 494847 20190124000407
+3.17.77.114 11 11 604813 20190128191951
+66.249.83.134 1 48 6172557 20190121105620
+85.202.195.128 0 1 50107 
+90.91.6.148 1 1 54983 20190128023156
+14.215.176.147 0 1 1344 
+82.10.118.50 0 1 214636 
+18.224.136.166 4 4 219932 20190131112339
+213.205.198.113 2 18 1820920 20190107104608
+35.196.212.201 1 1 54983 20190108040609
+161.111.77.17 2 84 12225219 20190110112514
+52.53.201.78 10 10 549830 20190129114655
+64.233.172.174 1 31 3130689 20190110121307
+40.77.193.100 0 1 1850 
+5.168.70.83 2 44 4103102 20190105124031
+111.206.36.11 0 1 8613 
+201.210.182.252 1 1 54983 20190107005725
+110.159.126.32 1 1 54983 20190108193118
+66.220.149.10 0 1 52567 
+18.223.23.251 18 18 989694 20190131192337
+173.252.87.8 1 28 2962371 20190114053121
+213.249.151.201 4 106 11613734 20190122172444
+18.191.251.234 12 12 659796 20190131085425
+134.249.55.222 6 6 329898 20190118142018
+18.191.144.104 23 23 1264609 20190128132349
+202.46.58.197 0 1 1344 
+174.225.2.126 0 1 259491 
+18.191.117.6 20 20 1099660 20190130201632
+18.191.12.231 16 16 879728 20190127222111
+66.249.83.136 0 62 7490087 
+142.11.219.92 2 2 109966 20190123224516
+110.83.135.127 1 1 54983 20190103022619
+51.75.168.171 1 1 54983 20190106165600
+18.217.87.102 15 15 824745 20190130002048
+46.134.7.90 3 83 9488869 20190131115123
+80.3.111.78 4 163 18867492 20190115194600
+178.137.167.167 9 9 494847 20190129032031
+202.46.54.188 1 1 54983 20190102163901
+31.13.127.9 0 2 91989 
+54.212.154.255 0 1 45493 
+54.39.180.227 1 1 54983 20190124050752
+213.152.161.30 1 1 54983 20190123000115
+111.206.36.14 0 1 6489 
+94.53.116.249 2 2 109966 20190101060145
+5.170.221.248 1 1 1119562 20190104165806
+3.17.141.2 18 18 989694 20190130124632
+2.40.119.168 4 84 9543852 20190124125637
+31.51.246.42 7 7 384881 20190116032335
+70.44.57.58 1 3 64940 20190118191336
+109.145.34.128 2 82 9433886 20190107133026
+104.192.74.236 2 81 9432036 20190106170455
+18.191.222.205 12 12 659796 20190130214542
+18.188.141.129 4 10 250446 20190101084410
+190.201.29.189 1 1 54983 20190106150620
+18.223.108.8 17 17 934711 20190129224848
+51.15.209.146 1 1 54983 20190123230735
+88.156.130.76 1 1 54983 20190118140654
+88.111.15.255 1 5 12620141 20190113144157
+5.171.194.37 1 1 12174897 20190120065401
+14.215.176.148 2 3 118579 20190115054008
+40.77.253.231 0 1 9372 
+149.202.84.149 0 2 283070 
+138.204.25.206 2 82 9433886 20190117202908
+89.64.16.211 1 3 64940 20190120165252
+87.75.107.74 0 1 119780 
+93.70.91.211 2 81 9381319 20190116063332
+123.249.83.37 1 1 0 20190127162152
+171.13.14.46 0 2 58122 
+3.16.138.5 14 14 769762 20190130181541
+176.31.124.223 3 3 164949 20190124052551
+123.231.9.44 1 1 54983 20190127034614
+92.86.146.245 0 1 145550 
+197.61.121.42 1 1 54983 20190126111711
+37.17.172.132 2 2 109966 20190110155643
+40.77.190.53 0 1 6489 
+93.160.60.32 4 4 219932 20190128184448
+39.53.84.69 1 1 54983 20190104040656
+72.194.219.88 0 1 88736 
+131.114.235.244 2 82 9433886 20190130060558
+109.15.245.111 0 1 45493 
+185.211.245.158 1 1 54983 20190115103152
+202.46.58.153 1 1 54983 20190104213114
+93.135.161.100 1 1 12174897 20190123094355
+3.17.178.6 1 1 54983 20190131062239
+2.40.119.188 1 1 54983 20190105073928
+66.160.140.184 3 3 143076 20190131071715
+3.17.151.223 13 13 714779 20190128072222
+109.186.247.18 2 2 109966 20190111160121
+68.111.36.190 0 2 262802 
+81.22.45.62 4 4 219932 20190123171103
+31.13.127.19 0 4 566292 
+46.183.115.48 1 1 54983 20190125202721
+13.59.67.250 11 11 604813 20190128155223
+158.69.225.35 1 1 54983 20190101031224
+60.191.38.77 7 7 384881 20190130003919
+31.13.127.8 0 2 74908 
+42.236.10.117 1 29 3824182 20190108125524
+40.77.194.77 0 1 6489 
+91.160.18.231 1 1 54983 20190117054157
+3.16.49.127 13 13 714779 20190130174434
+18.217.199.81 22 22 1209626 20190128175059
+14.215.176.143 1 2 64355 20190106214433
+192.157.88.173 7 7 384881 20190113143642
+66.249.88.30 0 1 133048 
+2.30.43.41 4 164 18867772 20190104103354
+3.16.22.104 15 15 824745 20190131012256
+152.26.198.38 2 82 9433886 20190125142520
+3.17.163.202 23 23 1264609 20190129081821
+46.4.83.150 1 1 54983 20190113201032
+173.205.33.31 1 1 54983 20190131012613
+31.185.104.21 1 1 54983 20190129194418
+40.77.194.197 0 1 6489 
+54.36.38.121 1 1 54983 20190115080454
+106.120.173.116 0 1 8613 
+5.95.84.140 2 82 9433886 20190126113408
+18.191.182.120 9 9 494847 20190131212418
+80.110.126.234 2 2 109966 20190110192825
+66.249.81.144 0 29 2402536 
+193.206.102.201 1 1 54983 20190110084536
+54.188.230.84 1 1 54983 20190114134240
+18.220.134.185 9 9 494847 20190129124729
+193.117.140.70 6 232 32779976 20190114121224
+18.218.76.175 6 6 329898 20190117090630
+92.161.49.210 0 2 9957 
+210.84.60.249 7 7 384881 20190131055954
+58.104.196.107 2 87 13473083 20190103074222
+5.90.76.219 1 81 9378903 20190117031558
+40.77.253.136 0 1 2846 
+172.58.140.249 0 6 584940 
+36.110.199.52 0 1 8613 
+82.13.69.255 1 81 9378903 20190104113434
+111.206.36.146 0 2 3194 
+202.46.57.120 1 1 54983 20190115020106
+66.249.83.132 3 49 4736176 20190122113452
+95.115.3.129 2 82 9433886 20190127040926
+3.17.109.151 17 17 934711 20190131105436
+95.246.114.110 1 1 54983 20190102112431
+90.126.114.41 0 1 119989 
+14.215.176.149 0 2 7833 
+18.221.190.171 14 14 769762 20190126005104
+87.102.15.22 0 1 50107 
+18.223.122.203 11 11 604813 20190131055444
+188.211.162.247 0 1 53437 
+37.152.220.49 1 81 9378903 20190110064140
+130.43.180.50 0 1 384312 
+206.71.62.82 3 3 12434576 20190113134313
+198.58.109.68 2 25 2782726 20190110121449
+18.220.140.75 1 1 54983 20190131032400
+18.221.76.172 15 15 824745 20190129204720
+18.216.206.239 12 12 659796 20190127214959
+202.46.52.169 1 1 54983 20190128024733
+138.201.60.47 1 1 54983 20190103210139
+2.154.101.112 1 1 54983 20190124094134
+171.67.70.58 1 1 54983 20190121222514
+194.44.247.218 2 2 109966 20190116012207
+31.171.244.124 1 1 54983 20190104172017
+18.220.58.223 7 7 384881 20190127144930
+81.169.195.144 1 1 54983 20190129225258
+202.46.55.123 1 1 54983 20190116170739
+18.223.182.11 13 13 714779 20190130134539
+202.46.49.119 1 1 54983 20190118220714
+2.40.124.21 1 1 54983 20190104040159
+91.146.146.152 1 1 54983 20190114091536
+3.17.140.40 13 13 714779 20190128041951
+137.226.113.28 5 5 274915 20190126201106
+91.134.17.252 1 1 54983 20190125044642
+77.9.39.176 2 82 9433886 20190113081752
+2.87.245.64 0 1 88736 
+88.220.147.88 2 146 17046852 20190104165736
+119.185.7.41 3 3 164949 20190110064356
+66.249.93.27 1 54 5641548 20190104162135
+46.101.9.216 1 1 54983 20190130203439
+193.205.210.41 2 2 2480359 20190130102844
+93.65.237.161 0 1 142813 
+171.13.14.44 0 2 53911 
+137.222.44.48 2 82 9433886 20190114080735
+42.236.10.114 1 24 2329281 20190108125528
+111.206.36.137 1 2 64355 20190109103709
+109.94.173.83 1 1 54983 20190129034916
+119.76.34.218 1 1 54983 20190111061156
+194.158.45.194 0 3 1535613 
+192.157.88.170 1 1 54983 20190119052618
+202.46.58.198 1 1 54983 20190103193133
+13.58.240.96 17 17 934711 20190131232404
+185.115.102.208 0 1 58476 
+173.205.33.16 1 1 54983 20190110115156
+111.206.36.147 0 1 1344 
+144.32.240.4 2 80 9264099 20190118100141
+35.233.41.151 1 1 54983 20190119190942
+193.205.6.111 2 82 9433886 20190129085545
+203.133.171.13 21 81 6676800 20190112185106
+18.222.114.216 1 1 54983 20190113051436
+106.11.167.107 0 1 111311 
+40.77.188.98 0 1 8613 
+18.222.191.184 7 7 384881 20190125224916
+216.158.93.175 1 1 54983 20190113193105
+18.224.21.166 15 15 824745 20190122190407
+202.46.49.190 0 1 9372 
+31.13.127.14 1 5 305292 20190122172458
+180.221.27.32 1 1 54983 20190112121902
+148.251.50.77 1 1 54983 20190106062206
+31.13.127.4 0 2 801453 
+36.110.199.179 0 1 1344 
+66.249.93.28 1 48 6121207 20190131050204
+202.46.51.207 1 1 54983 20190103120725
+52.36.227.21 2 2 109966 20190117231940
+131.111.184.8 1 79 9388558 20190127201406
+91.134.17.247 1 1 54983 20190123071237
+92.217.110.173 1 1 12174897 20190118115639
+40.77.193.152 0 1 8613 
+198.59.178.213 1 1 54983 20190120192432
+88.17.30.153 0 2 387577 
+66.160.140.183 1 1 54983 20190103142834
+143.137.94.218 1 1 54983 20190111171807
+77.2.1.34 1 81 9378903 20190123125036
+18.191.64.16 7 7 384881 20190125171951
+40.77.253.167 1 1 33110 20190124141047
+66.220.149.19 0 1 52567 
+31.13.127.17 0 1 56693 
+65.202.186.163 0 1 259491 
+58.65.133.182 0 1 308285 
+173.252.127.31 0 1 52567 
+212.189.140.215 0 7 399395 
+202.46.55.176 1 1 54983 20190119210433
+85.232.202.81 1 1 12174897 20190107143931
+151.29.138.204 2 81 9344448 20190131175119
+65.55.210.236 1 7 63624 20190118014048
+134.249.52.146 3 3 164949 20190118203905
+5.9.106.81 2 2 109966 20190127054945
+13.58.137.107 14 14 769762 20190131205509
+202.46.58.155 0 1 8613 
+212.189.140.220 1 81 9378903 20190115104638
+188.28.130.185 1 82 9763215 20190121124103
+185.152.129.51 1 1 1119562 20190118035036
+192.198.102.158 1 1 54983 20190122084525
+157.138.190.122 4 4 219932 20190122051303
+117.136.38.148 2 44 4174128 20190126011822
+163.172.71.6 1 1 54983 20190118151325
+18.224.70.96 12 12 659796 20190130044644
+34.76.52.203 0 6 30514 
+144.32.67.170 2 82 9433886 20190131150110
+18.218.118.227 9 9 494847 20190131225316
+131.111.185.1 1 3 64940 20190111050659
+188.213.26.8 4 4 219932 20190113112437
+46.134.40.155 2 79 8949037 20190130032229
+40.77.192.251 0 1 1850 
+144.32.240.87 2 73 8537615 20190121053216
+18.191.27.77 16 16 879728 20190131145405
+178.137.89.36 2 2 109966 20190131185113
+66.249.88.4 0 1 214636 
+66.249.92.26 1 1 53 20190101041510
+18.223.117.68 19 19 1044677 20190131102446
+69.112.109.22 0 1 254529 
+18.221.101.236 1 1 54983 20190131202246
+37.160.51.180 2 82 9433886 20190127090631
+216.13.106.162 1 1 54983 20190116173836
+171.13.14.37 2 3 106840 20190108131730
+2.40.119.162 1 1 54983 20190102080417
+144.32.220.93 2 82 9433886 20190117090929
+89.64.38.52 1 1 54983 20190101180311
+188.32.19.9 1 1 54983 20190120111733
+18.191.233.49 13 13 714779 20190128145235
+3.17.72.18 21 21 1154643 20190131132331
+88.97.74.45 2 82 9433886 20190131022349
+202.46.54.72 1 1 54983 20190110220533
+66.249.81.142 2 30 3536296 20190108161757
+18.219.132.254 10 10 549830 20190131195405
+79.156.69.137 1 1 54983 20190119141803
+89.234.68.97 1 1 54983 20190121235627
+2.40.119.170 1 1 54983 20190131082047
+14.215.176.20 0 5 23403 
+18.222.151.28 14 14 769762 20190127051930
+104.36.17.59 1 1 54983 20190109061436
+131.247.202.177 2 82 9433886 20190123102018
+111.206.36.16 0 1 6489 
+18.219.245.160 16 16 879728 20190129184858
+83.26.199.176 20 822 94038258 20190128110159
+93.34.139.231 0 1 45493 
+18.191.249.115 17 17 934711 20190130081555
+18.217.147.149 19 19 1044677 20190130171612
+86.98.79.13 0 1 40705 
+37.115.186.101 11 11 604813 20190130042710
+106.11.230.84 0 1 111311 
+46.51.197.88 0 1 48767 
+213.205.251.4 2 82 9433886 20190103071321
+131.111.184.7 2 82 9433886 20190128051926
+93.34.220.1 1 81 9378903 20190128194848
+18.219.102.78 17 17 934711 20190127234934
+31.13.115.17 0 13 1394441 
+178.164.201.209 0 1 59864 
+139.180.229.133 1 1 54983 20190108191101
+111.206.36.10 0 1 2846 
+13.59.196.155 18 18 989694 20190131185435
+36.110.199.155 0 1 2846 
+81.240.187.113 2 2 109966 20190131044401
+18.223.188.123 13 13 714779 20190129165036
+40.77.189.227 1 1 12174897 20190101071632
+40.77.195.222 0 1 1344 
+93.56.74.237 0 1 58476 
+18.216.253.174 17 17 934711 20190129002248
+169.237.206.129 0 1 141535 
+176.234.17.21 0 1 100426 
+40.77.190.71 1 2 35956 20190126063527
+202.46.48.191 1 1 54983 20190102005219
+18.222.89.148 6 6 329898 20190128065234
+173.252.127.11 0 1 52567 
+92.34.253.190 2 82 9433886 20190105100121
+88.198.90.9 2 2 12229880 20190124092927
+185.230.127.103 1 1 54983 20190117194027
+67.227.70.81 1 1 54983 20190110043045
+144.32.94.101 1 75 9032075 20190122085009
+186.137.59.53 2 82 9433886 20190117191148
+180.163.220.3 1 11 1458767 20190108125611
+146.198.75.132 2 87 12084414 20190112123711
+62.10.70.215 0 19 3025252 
+93.160.60.22 5 5 274915 20190129083214
+74.123.167.81 1 3 64940 20190128140553
+109.95.125.181 1 1 54983 20190118055228
+111.206.36.8 1 2 56327 20190117132752
+151.29.252.46 4 164 18867772 20190129125232
+81.158.246.140 5 5 274915 20190115080341
+79.69.165.241 2 62 6301590 20190113052303
+117.41.183.82 3 3 164949 20190108115225
+3.17.65.61 13 13 714779 20190124192307
+190.190.139.131 0 1 100426 
+86.8.203.171 1 1 54983 20190129074403
+217.58.210.154 1 1 12174897 20190116061410
+5.146.249.203 1 1 12174897 20190124134741
+206.71.62.80 1 1 54983 20190119053943
+59.101.159.151 2 82 9433886 20190122004840
+185.244.226.142 1 1 2425376 20190118055219
+18.191.215.241 21 21 1154643 20190131162442
+82.5.42.135 0 2 165273 
+202.46.49.117 1 1 54983 20190101030744
+18.223.107.37 16 16 879728 20190131025247
+202.46.58.56 1 1 54983 20190105175937
+109.146.2.209 2 2 608070 20190109083151
+40.77.193.194 1 1 12174897 20190105174224
+49.248.75.174 0 3 286114 
+158.148.227.251 2 82 9433886 20190106101720
+40.77.253.173 0 1 9372 
+158.169.40.7 2 82 9433886 20190123050357
+82.34.96.4 1 13 476979 20190120164840
+212.100.60.23 1 1 12174897 20190120153832
+40.77.188.62 0 3 12566 
+202.46.52.64 1 1 54983 20190108020006
+207.180.168.32 2 82 9433886 20190124081954
+72.38.199.34 0 1 100426 
+5.188.62.55 1 1 54983 20190114174213
+40.77.192.187 0 1 2846 
+31.13.115.1 0 12 1368338 
+202.46.56.203 1 1 54983 20190115042541
+134.21.130.129 2 82 9433886 20190104122402
+73.79.54.193 2 82 9433886 20190101154047
+34.244.81.138 1 1 54983 20190113223319
+122.106.38.170 10 10 549830 20190113144615
+195.194.24.140 1 1 54983 20190128074927
+221.2.44.75 1 1 0 20190129110716
+36.110.199.21 1 2 64355 20190107224333
+125.26.6.137 1 1 54983 20190125094719
+91.134.17.236 1 1 54983 20190125105622
+52.15.139.194 10 10 549830 20190131172333
+91.134.17.248 1 1 54983 20190110072437
+103.252.27.213 1 3 64940 20190108174335
+18.223.135.142 13 13 714779 20190128054927
+74.64.236.235 2 94 17003546 20190117165433
+111.206.36.9 1 4 75814 20190125182533
+178.171.59.150 1 1 54983 20190130195537
+202.46.57.11 1 1 54983 20190125114727
+213.195.242.1 1 1 54983 20190118040143
+111.206.36.19 0 1 6489 
+5.151.95.58 2 82 9433886 20190111065842
+87.119.182.188 2 81 9291073 20190129171746
+80.0.63.128 1 81 9378903 20190102154914
+64.62.252.176 1 1 54983 20190103005037
+14.215.176.21 0 4 21179 
+141.226.8.63 1 1 54983 20190116051153
+93.45.66.3 1 1 54983 20190112145027
+151.15.219.8 1 1 54983 20190112155553
+40.77.193.146 0 1 1344 
+178.80.97.160 1 1 54983 20190118101406
+158.148.249.95 2 82 9433886 20190114102244
+3.16.21.14 23 23 1264609 20190129104806
+46.118.124.60 3 3 164949 20190131024405
+93.45.225.121 0 1 259491 
+95.156.0.218 1 1 54983 20190120094844
+3.16.78.133 13 13 714779 20190127011931
+173.252.87.9 0 14 1142234 
+14.215.176.140 0 1 6489 
+202.46.52.205 1 1 54983 20190103003240
+192.76.8.78 1 3 64940 20190124154534
+135.245.248.78 1 3 64940 20190121044459
+117.193.239.54 1 1 54983 20190110214916
+80.31.5.188 0 1 119989 
+167.114.209.28 1 1 54983 20190109060505
+131.111.5.176 2 82 9433886 20190125091820
+202.46.58.89 1 1 54983 20190110220254
+18.218.231.141 22 22 1209626 20190130234607
+94.26.12.26 1 1 54983 20190123004732
+185.220.101.50 1 1 54983 20190102065539
+193.50.65.21 2 82 9433886 20190109071204
+67.211.213.8 2 2 109966 20190127005803
+144.32.240.146 3 83 9488869 20190119115627
+202.46.48.83 1 1 54983 20190104010132
+13.59.15.248 18 18 989694 20190131092354
+34.229.121.106 1 1 54983 20190114192222
+3.17.58.50 14 14 769762 20190130064516
+40.77.194.141 0 1 1344 
+79.30.223.217 1 1 54983 20190128152903
+161.111.77.28 1 1 54983 20190111072519
+185.167.34.155 1 1 54983 20190116071147
+35.196.159.186 1 1 54983 20190121022514
+87.242.195.34 1 3 64940 20190110105412
+59.101.79.210 3 163 18812789 20190128052751
+178.32.120.230 2 2 109966 20190112173348
+35.231.6.147 1 1 54983 20190116085239
+113.35.251.98 1 1 54983 20190110005321
+75.82.51.154 2 82 9433886 20190129115646
+18.222.145.63 19 19 1044677 20190131125359
+154.47.137.143 2 2 109966 20190113092104
+14.215.176.137 0 1 1850 
+173.252.87.11 0 12 1785415 
+40.77.189.241 1 1 12174897 20190107173427
+42.236.10.124 0 3 322673 
+109.63.145.247 1 1 54983 20190109175031
+188.254.148.195 1 1 54983 20190131030654
+185.230.127.117 4 4 219932 20190120020522
+64.71.193.219 2 71 8867802 20190104225149
+173.252.127.10 0 1 52567 
+109.146.146.168 2 2 109966 20190103052232
+54.246.193.66 1 1 54983 20190119020024
+116.193.128.75 0 1 89752 
+18.217.76.214 11 11 604813 20190129222141
+86.206.117.44 2 81 9375410 20190116105744
+3.87.129.246 1 1 54983 20190122012121
+37.106.8.244 1 1 54983 20190103040322
+202.46.48.132 1 1 54983 20190101051859
+107.138.164.225 0 1 133048 
+18.223.117.225 21 21 1154643 20190129041620
+142.93.190.128 1 1 54983 20190125092836
+31.184.238.190 2 2 109966 20190130161616
+126.163.169.133 1 1 54983 20190122120739
+112.5.243.231 1 1 54983 20190105074410
+138.251.179.98 2 82 9433886 20190122102414
+202.46.53.52 1 1 54983 20190107225143
+130.18.228.239 2 82 9433886 20190116150222
+14.215.176.139 0 1 2846 
+18.223.159.227 14 14 769762 20190131235338
+180.163.220.4 1 3 64318 20190108125555
+66.249.93.29 1 61 7050034 20190131050205
+137.226.113.26 5 5 274915 20190131160141
+86.61.86.252 1 1 54983 20190126070327
+34.213.212.183 0 1 50107 
+83.78.22.110 2 81 9374022 20190116162402
+93.217.31.219 0 1 384312 
+40.77.189.79 1 1 33110 20190108233951
+40.77.189.25 1 3 45328 20190127183317
+203.22.224.77 2 82 9433886 20190110173205
+82.38.215.209 3 89 10203593 20190129202447
+77.2.14.214 2 82 9433886 20190126122317
+202.46.54.109 1 1 54983 20190113060509
+202.46.58.93 1 1 54983 20190105101835
+40.77.195.43 1 1 33110 20190117004708
+35.243.218.93 1 1 54983 20190116093649
+2.40.119.184 1 1 54983 20190130163031
+185.191.204.6 0 2 594866 
+2.40.119.160 2 2 109966 20190127145211
+124.149.145.93 4 4 219932 20190123165044
+130.251.55.22 2 82 9433886 20190122053406
+66.220.149.8 0 2 105134 
+18.223.44.6 18 18 989694 20190130074633
+206.71.62.81 3 3 164949 20190119000952
+99.203.17.238 0 2 628856 
+206.71.62.79 3 3 164949 20190105055503
+209.15.209.89 0 4 219519 
+50.92.72.82 19 19 1044677 20190105140647
+27.100.0.204 0 2 114640 
+202.46.54.199 1 1 54983 20190117210723
+64.233.172.172 0 23 2320125 
+85.1.213.14 0 1 48767 
+202.46.58.17 1 1 54983 20190126094658
+40.77.192.92 0 1 6489 
+18.188.29.163 15 15 824745 20190128225015
+34.73.82.127 1 1 54983 20190120225553
+18.216.89.236 8 8 439864 20190127162150
+3.17.12.72 15 15 824745 20190128205129
+111.2.22.120 2 2 109966 20190104041456
+192.157.88.167 2 2 109966 20190106073729
+150.242.85.72 1 1 54983 20190120235915
+178.137.83.11 1 1 54983 20190130194622
+38.100.21.61 1 2 62701 20190110142308
+31.205.35.71 1 1 54983 20190104191257
+144.82.8.28 0 5 219435 
+94.29.62.96 1 1 54983 20190113222952
+40.77.195.65 0 1 8613 
+3.17.39.199 14 14 769762 20190130131648
+18.216.245.139 16 16 879728 20190128005246
+18.188.98.200 15 15 824745 20190130071609
+197.252.1.34 1 1 54983 20190122133528
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190101 30 123 23045836 25
+20190102 45 556 61277044 36
+20190103 40 236 41757271 35
+20190104 44 675 77894763 37
+20190105 34 159 27623263 29
+20190106 37 206 21243126 33
+20190107 32 377 63835182 29
+20190108 40 327 45024796 32
+20190109 60 242 24272512 56
+20190110 140 675 73965694 95
+20190111 100 429 43296262 67
+20190112 101 274 27073807 69
+20190113 123 423 89694927 84
+20190114 113 502 57700574 73
+20190115 116 595 63124373 73
+20190116 126 768 106173228 81
+20190117 126 787 89200237 83
+20190118 120 288 41020299 84
+20190119 109 270 29403282 72
+20190120 121 218 41055358 82
+20190121 115 442 46977940 82
+20190122 125 648 67237039 83
+20190123 119 370 47584035 81
+20190124 102 283 38079268 74
+20190125 111 281 25129913 72
+20190126 114 325 29288774 76
+20190127 118 444 43852991 75
+20190128 119 525 53468047 78
+20190129 90 580 63270598 83
+20190130 89 415 45028611 85
+20190131 90 595 63060095 82
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 4
+2mn-5mn 2
+30s-2mn 7
+15mn-30mn 5
+0s-30s 2014
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 2675 146584678 1980 1878
+/resources/images/global/UOY-Logo-Stacked-shield-PMS432.svg 137 4536070 36 135
+/documents/2016-Sictransit-for-web.pptx 14 170448558 14 14
+/documents/interim-report-2016-combined.pdf 6 14552256 3 4
+/documents/castronovo-brochure.pdf 4 2212348 2 4
+/google16c07d596c1f259f.html 4 212 4 4
+// 3 164949 1 1
+/documents/interimReport2014.pdf 3 3358686 3 3
+/documents/2016-Sictransit-for-web.pdf 2 24649220 2 2
+/documents/interimReport2015.pdf 1 4776573 1 1
+END_SIDER
