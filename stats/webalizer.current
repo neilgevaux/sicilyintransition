@@ -1,0 +1,623 @@
+# Webalizer V2.01-10 Incremental Data - 07/11/2016 07:55:51
+2016 7 11 7 55 51
+3353 3107 78 86 20 12 277800490 132 77 0
+11 45 546 3 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+399 315 29403017 4 25 6
+361 352 33355071 8 15 10
+70 63 5147239 6 5 5
+636 601 51116491 23 17 14
+880 822 74505953 23 30 15
+115 104 8331672 10 8 7
+20 16 442812 7 9 6
+196 186 15630870 8 6 6
+676 648 59867365 11 17 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 2 73810 3
+71 59 5209903 2
+20 18 345068 2
+2 2 131923 1
+256 246 20824269 9
+224 211 20405038 6
+1012 973 87255845 32
+241 228 20634373 5
+77 71 7572112 2
+180 174 15523511 12
+49 49 6006143 5
+69 65 5067933 3
+129 120 10073815 4
+258 237 20045925 6
+0 0 0 0
+7 4 153738 4
+126 121 10113770 5
+71 68 5198939 2
+72 65 5360491 4
+126 114 9490628 7
+175 163 15190559 8
+155 95 10822689 6
+26 19 1263985 3
+3 3 1036023 1
+0
+0
+0
+3107
+0
+0
+0
+0
+0
+9
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+236
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 103 0 3477187 70 18
+/images/socialMedia/googleplus50px.png
+1 52 0 224016 0 0
+/images/homepage/infoBox05.jpg
+1 51 0 4739838 0 0
+/js/scrolling-nav.js
+0 47 0 28764 0 0
+/images/contentPages/gallery/thumbnails/gallery07.jpg
+1 10 0 1597790 0 0
+/css/main.css
+0 46 0 105464 0 0
+/images/contentPages/team/GoodchildHelen.jpg
+1 49 0 2591904 0 0
+/images/socialMedia/facebook50px.png
+1 52 0 192972 0 0
+/images/contentPages/gantt.jpg
+1 49 0 9489144 0 0
+/images/homepage/infoBox04.jpg
+1 51 0 6149580 0 0
+/ssv3_payload_extractor-aslkfj.php
+0 1 0 20 0 0
+/images/contentPages/gallery/thumbnails/gallery06.jpg
+1 10 0 1943600 0 0
+/css/scrolling-nav.css
+0 47 0 108664 0 0
+/fancybox/source/fancybox_overlay.png
+1 4 0 4012 0 0
+/images/homepage/infoBox03.jpg
+1 51 0 3637677 0 0
+/images/global/UniRomeLogo.png
+1 51 0 2144958 0 0
+/admin/likeindex.php
+0 1 0 20 0 0
+/images/contentPages/team/staffTemplate.jpg
+1 51 0 1095021 0 0
+/images/contentPages/gallery/thumbnails/gallery05.jpg
+1 10 0 749370 0 0
+/images/global/UniSalentoLogo.png
+1 50 0 9350900 0 0
+/images/homepage/infoBox02.jpg
+1 52 0 5816252 0 0
+/images/global/ERCLogo.png
+1 51 0 2869872 0 0
+/images/contentPages/gallery/thumbnails/gallery04.jpg
+1 10 0 1148700 0 0
+/images/contentPages/2015pdf.jpg
+1 50 0 10360650 0 0
+/fancybox/source/helpers/jquery.fancybox-thumbs.css
+0 47 0 34545 0 0
+/images/homepage/infoBox01.jpg
+1 51 0 2126343 0 0
+/images/contentPages/team/PrimaveraMilenaFiorentinoGirolamo.jpg
+1 49 0 3376590 0 0
+/images/contentPages/team/TozerJo.jpg
+1 51 0 2641392 0 0
+/images/contentPages/gallery/thumbnails/gallery03.jpg
+1 10 0 1376400 0 0
+/images/contentPages/sourcesMap.jpg
+1 52 0 18498168 0 0
+/images/contentPages/team/OrrechioniPaola.jpg
+1 49 0 3264086 0 0
+/images/contentPages/team/VassalloStefano.jpg
+1 51 0 3053064 0 0
+/fancybox/source/fancybox_sprite.png
+1 1 0 1362 0 0
+/MMrequirementProbe-ydFdeJG60k.php
+0 1 0 20 0 0
+/images/contentPages/gallery/thumbnails/gallery02.jpg
+1 10 0 1046840 0 0
+/fancybox/source/helpers/jquery.fancybox-buttons.js
+0 47 0 142927 0 0
+/fancybox/source/jquery.fancybox.css
+0 47 0 230065 0 0
+/css/bootstrap.css
+0 47 0 6868862 0 0
+/images/contentPages/gallery/thumbnails/gallery01.jpg
+1 10 0 1694770 0 0
+/images/homepage/castronovoFromNorth1280colour.jpg
+1 47 0 4715745 0 0
+/images/contentPages/team/CarverMartin.jpg
+1 51 0 5600004 0 0
+/images/contentPages/workflow.png
+1 51 0 37821039 0 0
+/fancybox/source/fancybox_loading@2x.gif
+1 3 0 41952 0 0
+/images/socialMedia/youtube72px.png
+1 52 0 220740 0 0
+/images/contentPages/team/MangiaracinaClaudio.jpg
+1 50 0 2687950 0 0
+/images/global/medSocLogo.png
+1 50 0 8266400 0 0
+/fancybox/source/fancybox_sprite@2x.png
+1 3 0 19659 0 0
+/css/media.css
+0 46 0 39698 0 0
+/images/contentPages/team/CraigOl.jpg
+1 50 0 6974650 0 0
+/images/contentPages/publicationStructure.jpg
+1 50 0 8805750 0 0
+/images/contentPages/team/AlexanderMichelle.jpg
+1 50 0 2035250 0 0
+/images/contentPages/gallery/gallery07.jpg
+1 5 0 2359455 0 0
+/css/col.css
+0 47 0 55225 0 0
+/ssv3_directory.php
+0 1 0 1 0 0
+/js/jquery.easing.min.js
+0 47 0 261508 0 0
+/images/contentPages/gallery/gallery06.jpg
+1 5 0 3066390 0 0
+/fancybox/source/helpers/jquery.fancybox-buttons.css
+0 47 0 115009 0 0
+/images/contentPages/2014pdf.jpg
+1 49 0 10339833 0 0
+/js/bootstrap.min.js
+0 47 0 1732796 0 0
+/images/contentPages/team/HummlerMadeleine.jpg
+1 50 0 2438350 0 0
+/fancybox/source/fancybox_loading.gif
+1 1 0 6567 0 0
+/images/contentPages/gallery/gallery05.jpg
+1 5 0 1052770 0 0
+/fancybox/source/blank.gif
+1 4 0 172 0 0
+/images/contentPages/team/VacarroEmanuele.jpg
+1 50 0 3214300 0 0
+/images/contentPages/team/GianninniNicoletta.jpg
+1 50 0 6192300 0 0
+/images/contentPages/gallery/gallery04.jpg
+1 5 0 1921560 0 0
+/images/socialMedia/twitter62px.png
+1 52 0 156832 0 0
+/images/homepage/infoBox09.jpg
+1 51 0 2631396 0 0
+/gallery.html
+0 15 0 147976 1 3
+/fancybox/source/helpers/jquery.fancybox-media.js
+0 47 0 249335 0 0
+/images/contentPages/team/HolstMalin.jpg
+1 51 0 5676861 0 0
+/images/contentPages/gallery/gallery03.jpg
+1 5 0 2056755 0 0
+/images/homepage/infoBox08.jpg
+1 51 0 4734687 0 0
+/js/jquery.js
+0 47 0 4501895 0 0
+/images/contentPages/sourcesTable.jpg
+1 52 0 15257268 0 0
+/index1.html
+0 1 0 36138 0 0
+/images/contentPages/team/MolinariAlessandra.jpg
+1 50 0 2923800 0 0
+/images/contentPages/gallery/gallery02.jpg
+1 5 0 1871635 0 0
+/images/homepage/infoBox07.jpg
+1 51 0 3603405 0 0
+/fancybox/source/jquery.fancybox.pack.js
+0 47 0 1087345 0 0
+/images/contentPages/gallery/gallery01.jpg
+1 5 0 2554115 0 0
+/images/homepage/infoBox06.jpg
+1 50 0 4193550 0 0
+/fancybox/source/helpers/jquery.fancybox-thumbs.js
+0 47 0 180292 0 0
+/wp-admin/likeindex.php
+0 1 0 20 0 0
+/images/global/UniYorkStacked.png
+1 50 0 1187750 0 0
+/images/contentPages/team/SpellerCamilla.jpg
+1 50 0 2401300 0 0
+# End Of Table - urls
+# -sites- (monthly)
+207.46.13.187
+0 2 1 36905 1 1467646833
+/
+109.155.135.156
+0 122 118 10002294 2 1468217505
+/
+66.249.69.252
+0 1 1 36138 1 1467778661
+/
+220.227.89.237
+0 129 114 9492929 2 1467582911
+/
+144.32.220.150
+0 480 460 43761475 3 1468223750
+/
+144.32.240.28
+0 71 68 6001330 1 1467874160
+/
+209.19.178.237
+0 1 1 38433 1 1468218982
+/
+54.244.37.107
+0 6 6 81 1 1467537594
+/ssv3_directory.php
+31.77.182.148
+0 61 59 5001147 1 1468218890
+/
+144.32.240.49
+0 11 9 1005540 1 1468218557
+/gallery.html
+173.252.115.198
+0 1 1 36138 1 1467743790
+/
+209.19.190.66
+0 1 1 36138 1 1467787302
+/
+66.249.81.165
+0 21 21 988381 1 1468219399
+/
+66.249.81.169
+0 23 22 2979869 0 0
+-
+66.249.81.173
+0 16 16 1032130 0 0
+-
+54.86.139.132
+0 1 0 767 1 1467810671
+-
+66.249.64.201
+0 30 27 1682700 3 1468100373
+-
+66.249.64.206
+0 21 16 1746141 3 1468084739
+/
+66.249.93.76
+0 1 0 767 0 0
+-
+66.249.64.211
+0 22 18 2684593 2 1468178163
+-
+66.249.93.81
+0 1 0 767 0 0
+-
+66.249.93.84
+0 1 1 36138 1 1467870152
+/
+65.49.54.70
+0 1 1 36138 1 1467592999
+/
+66.249.93.89
+0 1 0 767 0 0
+-
+66.249.93.93
+0 1 0 767 0 0
+-
+31.13.100.112
+0 2 2 98826 0 0
+-
+31.13.100.113
+0 2 2 9400 0 0
+-
+31.13.100.114
+0 1 1 612 0 0
+-
+31.13.100.115
+0 1 1 36138 1 1467855966
+/
+31.13.100.116
+0 1 1 36868 0 0
+-
+31.13.100.117
+0 1 1 23135 0 0
+-
+31.13.100.119
+0 2 1 6072 0 0
+-
+66.102.9.11
+0 24 23 1809008 0 0
+-
+66.249.75.239
+0 2 2 1124101 0 0
+-
+66.102.9.22
+0 24 24 2655950 0 0
+-
+213.205.192.214
+0 45 43 4663819 1 1467788216
+/
+66.249.64.252
+0 9 8 72760 0 0
+-
+66.249.75.247
+0 5 4 1093677 1 1467735801
+/
+66.249.75.252
+0 4 3 834863 1 1467995001
+/
+75.149.221.170
+0 1 1 38433 1 1468076705
+/
+31.77.156.63
+0 61 59 4998852 1 1467873335
+/
+213.205.252.46
+0 1 0 767 0 0
+-
+193.201.225.122
+0 3 1 37672 2 1467606059
+/
+91.200.81.56
+0 1 1 38433 1 1468047484
+/
+64.71.193.157
+0 1 1 36138 1 1467701232
+/
+207.70.3.139
+0 42 42 4561950 1 1467613927
+/
+185.30.27.89
+0 75 74 6067343 2 1467889249
+/
+147.147.236.6
+0 570 490 44905034 7 1467779394
+/
+64.71.203.50
+0 1 1 36138 1 1467787302
+/
+66.249.69.134
+0 1 0 767 0 0
+-
+209.66.70.253
+0 88 88 9123900 1 1467626733
+/
+144.32.94.19
+0 13 9 1007074 1 1467964780
+/gallery.html
+64.71.203.240
+0 1 1 38433 1 1468132419
+/
+78.33.209.98
+0 195 186 16066878 2 1467898652
+/
+144.32.94.94
+0 2 0 1534 0 0
+-
+144.32.94.97
+0 2 0 1534 0 0
+-
+66.102.9.120
+0 11 11 496989 0 0
+-
+104.32.16.10
+0 61 59 5001147 1 1468174198
+/
+107.155.173.118
+0 1 1 38433 1 1467991508
+/
+52.27.60.200
+0 1 0 767 1 1467592489
+-
+193.205.190.204
+0 61 59 5001147 1 1467957266
+/
+78.32.239.158
+0 442 414 35046037 3 1467909995
+/
+64.71.193.29
+0 1 1 36138 1 1467701232
+/
+206.207.80.167
+0 42 42 4561950 1 1467613927
+/
+66.249.64.128
+0 8 7 60309 1 1468016310
+/
+217.44.141.204
+0 61 58 4963481 0 0
+-
+209.210.178.150
+0 63 59 5000386 1 1467802979
+/
+66.249.64.134
+0 2 2 241931 0 0
+-
+66.249.75.125
+0 2 1 10593 1 1467923436
+/gallery.html
+80.12.43.216
+0 60 59 4998085 1 1467790620
+/
+213.205.253.26
+0 3 1 39967 1 1468165723
+/
+81.156.28.220
+0 65 60 5037291 2 1467855623
+/
+122.114.44.166
+0 1 1 36138 1 1467888244
+/
+81.156.28.222
+0 60 59 5000380 1 1468124390
+/
+69.58.178.57
+0 6 4 126659 1 1468036904
+/
+87.114.144.175
+0 132 127 11000028 2 1467822096
+/
+70.186.246.102
+0 1 1 38433 1 1468083240
+/
+213.205.253.73
+0 62 59 4999619 1 1467790737
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+109.155.135.156
+0 60 59 5000380 1 1468217505
+/
+144.32.220.150
+0 480 460 43761475 3 1468223750
+/
+209.19.178.237
+0 1 1 38433 1 1468218982
+/
+31.77.182.148
+0 61 59 5001147 1 1468218890
+/
+144.32.240.49
+0 11 9 1005540 1 1468218557
+/gallery.html
+66.249.81.165
+0 21 21 988381 1 1468219399
+/
+66.249.81.169
+0 23 22 2979869 0 0
+-
+66.249.81.173
+0 16 16 1032130 0 0
+-
+66.249.64.211
+0 1 1 58476 0 0
+-
+66.249.93.89
+0 1 0 767 0 0
+-
+66.249.93.93
+0 1 0 767 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 362
+https://sicilyintransitionor.fatcow.com/stats/index.html
+1 1
+http://www.sicilyintransition.org/index.html
+1 17
+http://www.sicilyintransition.org/fancybox/source/jquery.fancybox.css
+1 4
+http://m.facebook.com/
+0 2
+http://www.google.com/search
+1 1
+http://mail3b.webmail.virgilio.it/cp/MailMessageBody.jsp
+0 1
+http://www.sicilyintransition.org/
+1 557
+https://www.facebook.com/
+0 1
+https://www.google.co.uk/
+1 1
+http://sicilyintransition.org/index.html
+1 405
+Google
+2 2
+http://www.bing.com/search
+0 1
+http://sicilyintransition.org/gallery.html
+1 140
+http://www.sicilyintransition.org/gallery.html
+1 53
+http://sicilyintransition.org/
+1 1715
+http://sicilyintransition.org/index1.html
+1 52
+http://www.urlopener.com/homepage.html
+0 1
+http://sicilyintransition.org/css/main.css
+1 26
+http://www.sicilyintransition.org/css/main.css
+1 5
+http://sicilyintransition.org/fancybox/source/jquery.fancybox.css
+1 8
+# End Of Table - referrers
+# -agents- 
+MSIE 7.0
+0 1
+Googlebot-Image/1.0
+0 37
+Googlebot/2.1
+0 65
+Netscape 6 compatible
+2 3221
+Mozilla/5.0
+0 3221
+Konqueror/3.1
+0 1
+MSIE 8.0
+0 3
+Synapse)"
+0 3
+MSIE 6.0
+0 1
+bingbot/2.0
+0 2
+BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-
+0 1
+Konqueror
+2 1
+facebookexternalhit/1.1
+0 10
+MSIE 9.0
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
