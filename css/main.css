@@ -9,7 +9,7 @@ html, body {
 
 .banner{
 	height: auto;
-	width: 100%;	
+	width: 100%;
 	position: fixed;
 	z-index: 597;
 	transition: all 0.5s ease-in-out;
@@ -22,6 +22,15 @@ html, body {
 .banner-header.active{
 	visibility: hidden;
 	transition: all 0.1s ease-in-out;
+}
+/* Banner for all other pages than the homepage */
+.banner-other {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	z-index: 597;
+	transition: all 0.5s ease-in-out;
+	background-color: #094C83; /* Dark blue */
 }
 img.logo {
 	display: block;
@@ -91,38 +100,41 @@ h3.title{
 }
 /* Navbar */
 .topnav {
-    /* background-color: #ffffff; */
+  /* background-color: #ffffff; */
 	border-top: 1px solid #eeeeee;
-    overflow: hidden;
+  overflow: hidden;
 	z-index: 599;
 	transition: all 0.7s ease-in-out;
 	position: relative;
+	height: 10%;
 }
 .topnav.active{
 	background-color: #ffffff;
-	padding: 0.4em;
+	padding: 0.2em;
 	box-shadow: 2px 2px 2px #cccccc;
 }
 .topnav.active a{
-	color: #2e2e2e
+	color: #2e2e2e;
 }
-
+.topnav.active a:hover{
+	text-decoration: underline;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
 	font-family: "Oswald", sans-serif;
-    float: left;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 0.5em;
-    text-decoration: none;
-    font-size: 1.2em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
 	background-color: #ffffff;
-    color: #2e2e2e;
+  color: #2e2e2e;
 	transition: 0.4s;
 	text-decoration: none;
 }
@@ -131,12 +143,13 @@ h3.title{
     display: none;
 }
 
+
 /* Social media buttons class */
 .share-buttons{
 	color: #ffffff;
 	position: absolute;
-	right: 1em;
-	top: 1em;
+	right: 20px;
+	top: 6px;
 	z-index: 999;
 }
 .share-buttons a{
@@ -153,7 +166,7 @@ h3.title{
 	z-index: 999;
 }
 .share-buttons.active a{
-	color: #337BB7;
+	color: #337BB7; /* Blue */
 }
 .participate-btn-wrapper{
 	text-align: center;
@@ -165,13 +178,13 @@ h3.title{
 .participate-btn{
 	width: auto;
 	height: auto;
-	background-color: #337BB7;
+	background-color: #094C83; /* Dark blue */
 	border: 4px solid #ffffff;
 	z-index: 596;
 	overflow: hidden;
 }
 .participate-btn:hover{
-	background-color: #094C83;
+	background-color: #063D6B; /* Darker blue */
 	transition: 0.5s;
 
 }
@@ -221,7 +234,7 @@ a.participate{
 .content-section{
 	height: auto;
 	padding: 5em;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px solid #e8e8e8;
 }
 .content-section-images{
 	height: auto;
@@ -230,6 +243,7 @@ a.participate{
 }
 .text-content{
 	margin: 0 20%;
+	word-wrap: break-word;
 }
 .video-content{
 	width: 50%;
@@ -238,6 +252,7 @@ a.participate{
 }
 .links-content{
 	text-align: center;
+	margin: 0 20%;
 }
 .horizon{
 	margin: 0 auto;
@@ -266,9 +281,14 @@ img.homepage {
 	font-family: "Oswald", sans-serif;
 	font-weight: normal;
 }
-img.ppt {
+/* Image class for powerpoint slides */
+img.ppt { 
 	padding: 2%;
 	border: 1px solid #eeeeee;
+}
+/* Image class for event slides */
+img.event {
+ padding: 2%;
 }
 .gallery-thumbnail{
 	margin: 0;
@@ -282,8 +302,14 @@ a.mail {
 }
 .footer{
 	width: 100%;
-	height: 20em;
-	background-color: #2e2e2e;
+	height: auto;
+	background-color: #011E37; /* Darker blue */
+	text-align: center;
+	margin: 0 auto;
+	padding: 5%;
+}
+.footer p {
+	color: #ffffff;
 }
 /*------------------------
 GLOBAL CLASSES
@@ -292,7 +318,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Cinzel", serif;
 	text-align: center;
 	color: #2e2e2e;
-	padding: 2em 0;
+	padding: 2em 0 0 0;
 }
 p{
 	font-family: "Lora", serif;
@@ -306,7 +332,24 @@ a{
 	color: #337BB7;
 	text-decoration: none;
 }
-
+/* Learn More button links */
+a.more {
+	background-color: #094C83; /* Dark blue */
+	margin: 1em 0;
+	padding: 1em 2em;
+	font-family: "Lora", serif;
+  color: #ffffff;
+	border: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	display: inline-block;
+	width: auto;
+	transition: 0.2s;
+}
+a.more:hover {
+	background-color: #063D6B; /* Darker blue */
+}
 ol, ul, li{
 	font-family: "Lora", serif;
 	line-height: 1.5em;
@@ -343,7 +386,7 @@ ol, ul, li{
 /* Accordion menus */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #094C83;
+    background-color: #094C83; /* Dark blue */
     color: #ffffff;
     cursor: pointer;
 	margin: 2% 0;
@@ -360,7 +403,7 @@ ol, ul, li{
 /* Accordion menus */
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .accordion.active, .accordion:hover {
-    background-color: #063D6B;
+    background-color: #063D6B; /* Drker blue */
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -477,4 +520,15 @@ ol, ul, li{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+/* Horizontal rule styles */
+hr.styled { 
+  border: 0;
+	margin: 3em 0;
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
