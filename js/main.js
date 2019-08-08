@@ -47,6 +47,9 @@ $(window).on("scroll", function() {
 
 		var firstBioarch2 = " michelle.alexander";
 		var lastBioarch2 = "york.ac.uk";
+		
+		var firstBioarch3 = " nathan.wales";
+		var lastBioarch3 = "york.ac.uk";
 
 		var firstLecce = " girolamo.fiorentino";
 		var lastLecce = "unisalento.it";
